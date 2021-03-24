@@ -22,7 +22,7 @@ body{
 
 #header{
     display: grid;
-    grid-template-columns: 68% 30%;
+    grid-template-columns: 58% 40%;
     align-items: center;
 
     width: 100%;
@@ -60,8 +60,7 @@ body{
 
 #menu > ul {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 40% 1fr 1fr;
     align-items: center;
     justify-content: center;
     text-align: center;
