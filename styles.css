@@ -112,6 +112,16 @@ body{
     
 }
 
+.projectp{
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+
+.projectp:hover{
+    background-color: #738678;
+}
+
 .project .image-wrap{
     width: 85%;
     align-items: center;
@@ -122,7 +132,7 @@ body{
     padding: 10px;
 }
 
-.projectInfo *:hover{
+.projectInfo:hover{
     background-color: #738678;
 }
 
