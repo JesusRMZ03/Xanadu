@@ -152,6 +152,18 @@ body{
 .procont:hover a{
     color: white;
     font-size: 20px;
+    animation: aniProA 400ms linear;
+}
+
+@keyframes aniProA{
+    from{
+        transform: translateY(-300%);
+        color: black;
+    }
+    to{
+        transform: translateY(0%);
+        color: white;
+    }
 }
 
 .procont p{
