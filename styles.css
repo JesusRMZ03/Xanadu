@@ -157,15 +157,15 @@ body{
 .procont p{
     padding-top: 3px;
     padding-bottom: 10px;
-    font-family: 16px;
+    font-size: 13px;
     color: gray;
     background-color: transparent;
     transition: all 200ms;
 }
 
 .procont:hover p{
-    color: whitesmoke;
-    font-size: 20px;
+    color: rgb(170, 152, 152);
+    font-size: 18px;
 }
 
 
