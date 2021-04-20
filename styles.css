@@ -109,10 +109,16 @@ body {
     height: 317px;
     border: 1px solid #ccc;
     transition: all 300ms;
-    
-    border-radius: 42px;
+
+    border-radius: 32px;
     background: linear-gradient(225deg, #68796c, #7b8f80);
     box-shadow: -41px 41px 82px #57665b, 41px -41px 82px #8fa695;
+}
+
+.procont img{
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+
 }
 
 .projectp:hover {
