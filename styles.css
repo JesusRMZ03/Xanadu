@@ -1,10 +1,10 @@
-body{
+body {
     background-image: url("./img/backgroundxanadu.png");
     width: 100%;
     height: auto;
 }
 
-*{
+* {
     background-color: #eee;
     text-decoration: none;
     margin: 0px;
@@ -12,136 +12,130 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#container{
+#container {
     width: 90%;
     height: auto;
     margin: 0px auto;
     border: 1px solid rgba(225, 225, 226, 0.8);
     box-shadow: 0px 0px 10px #ccc;
-
     min-height: 600px;
 }
 
-#header{
+#header {
     display: grid;
     grid-template-columns: 58% 40%;
     align-items: center;
-
     width: 100%;
     height: 142px;
     border-bottom: 1px solid rgba(225, 225, 226, 0.8);
     margin-bottom: 20px;
 }
 
-.logo{
-
-
+.logo {
     padding: 10px;
     margin: 20px;
     color: black;
     text-shadow: 1px 1px 0px #ccc;
     text-transform: uppercase;
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     font-weight: 900;
     font-size: 35px;
 }
 
-.logo h1{
+.logo h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 700;
     font-size: 35px;
 }
 
-#menu{
+#menu {
     height: 100%;
     padding-right: 20px;
 }
 
-#menu > ul {
+#menu>ul {
     display: grid;
     grid-template-columns: 1fr 40% 1fr 40%;
     align-items: center;
     justify-content: center;
     text-align: center;
-
     width: 100%;
     height: 100%;
     list-style: none;
 }
 
-#menu a{
+#menu a {
     color: #444;
     text-transform: uppercase;
     padding: 15px;
     transition: all 200ms;
 }
 
-#menu a:hover{
+#menu a:hover {
     background: #738678;
     color: white;
     border-radius: 22px;
 }
 
-#content{
+#content {
     display: grid;
     grid-template-columns: 20% 1fr;
     align-items: start;
     justify-items: space-between;
     grid-column-gap: 7px;
-
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#projects{
+#projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill,272px);
+    grid-template-columns: repeat(auto-fill, 272px);
     grid-gap: 20px;
     align-items: center;
     padding-left: 40px;
-
 }
 
-.project{
+.project {
     margin-bottom: 25px;
     margin-right: 20px;
     border: 1px solid #ccc;
-    
 }
 
-.projectp{
+.projectp {
     margin-bottom: 25px;
     margin-right: 20px;
     height: 317px;
     border: 1px solid #ccc;
     transition: all 300ms;
+    
+    border-radius: 42px;
+    background: linear-gradient(225deg, #68796c, #7b8f80);
+    box-shadow: -41px 41px 82px #57665b, 41px -41px 82px #8fa695;
 }
 
-.projectp:hover{
-    background-color:rgba(0, 0, 0, 0.747);
+.projectp:hover {
+    background-color: rgba(0, 0, 0, 0.747);
     border-radius: 10px;
 }
 
-.procont:hover{
+.procont:hover {
     background-color: #738678;
     border-radius: 10px;
 }
 
-.procont img{
+.procont img {
     margin-bottom: 5px;
 }
 
-.procont a, .procont p{
+.procont a, .procont p {
     padding: 5px;
     padding-left: 10px;
     background-color: none;
 }
 
-
-.procont a{
+.procont a {
     padding-top: 8px;
     font-size: 16px;
     color: black;
@@ -149,24 +143,24 @@ body{
     background-color: transparent;
 }
 
-.procont:hover a{
+.procont:hover a {
     color: white;
     font-size: 20px;
     animation: aniProA 400ms linear;
 }
 
-@keyframes aniProA{
-    from{
+@keyframes aniProA {
+    from {
         transform: translateY(-300%);
         color: black;
     }
-    to{
+    to {
         transform: translateY(0%);
         color: white;
     }
 }
 
-.procont p{
+.procont p {
     padding-top: 3px;
     padding-bottom: 10px;
     font-size: 13px;
@@ -175,19 +169,18 @@ body{
     transition: all 200ms;
 }
 
-.procont:hover p{
+.procont:hover p {
     color: rgb(170, 152, 152);
     font-size: 18px;
 }
 
-#contentb{
+#contentb {
     display: grid;
-    grid-template-columns:  80%;
+    grid-template-columns: 80%;
     align-items: center;
     justify-content: center;
     justify-items: space-between;
     grid-column-gap: 7px;
-
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -201,8 +194,6 @@ body{
     color: #333333;
     font-size: 16px;
 }
-
-
 
 #blogs .titulo {
     font-size: 24px;
@@ -226,14 +217,13 @@ body{
     font-size: 14px;
 }
 
-#aside{
+#aside {
     margin-right: 10px;
     padding: 35px;
-
     border-right: 1px solid rgba(225, 225, 226, 0.8);
 }
 
-#aside h2{
+#aside h2 {
     display: block;
     width: 100%;
     font-size: 18px;
@@ -245,15 +235,15 @@ body{
     text-align: center;
 }
 
-#aside ul{
+#aside ul {
     list-style: none;
 }
 
-#aside ul li{
+#aside ul li {
     padding-bottom: 20px;
 }
 
-#aside a{
+#aside a {
     text-align: center;
     display: block;
     padding: 20px;
@@ -263,93 +253,74 @@ body{
     text-transform: uppercase;
 }
 
-#aside a:hover{
+#aside a:hover {
     background: #738678;
     color: white;
     border-radius: 22px;
 }
 
-#footer{
+#footer {
     display: grid;
     grid-template-columns: 1fr 25%;
     justify-content: start;
-
     height: 100px;
     align-items: center;
     border-top: 1px solid rgba(225, 225, 226, 0.8);
 }
 
-#footer .logo{
+#footer .logo {
     opacity: 0.5;
 }
 
-#footer .info{
+#footer .info {
     margin-left: 140px;
     color: #444;
 }
 
 /*Responsive*/
 
-
-
-
-
-
-
-
-@media (max-width: 784px){
-    #header{
+@media (max-width: 784px) {
+    #header {
         display: grid;
         grid-template-columns: 100%;
         align-items: center;
         justify-content: center;
         height: 140px;
-
         padding-bottom: 20px;
     }
-
-    #header h1{
+    #header h1 {
         text-align: center;
     }
-
-    #content{
+    #content {
         display: grid;
         grid-template-columns: 1fr;
         align-items: start;
         justify-items: space-between;
         grid-column-gap: auto;
     }
-    
-    #projects{
+    #projects {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
-
-        
     }
-
-    .project{
+    .project {
         margin-right: 10px;
         margin-left: 10px;
     }
-
-    #aside{
+    #aside {
         margin-right: 0px;
         padding: 15px;
     }
-
-    #aside ul{
+    #aside ul {
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
     }
-
-    #footer{
+    #footer {
         display: grid;
         grid-template-columns: 1fr;
         text-align: center !important;
         align-items: center;
         justify-content: center;
-
     }
 }
